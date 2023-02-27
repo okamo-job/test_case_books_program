@@ -10,3 +10,9 @@
 % docker exec -it (container Id) bash
 $ composer install
 ```
+
+## run unit test
+
+```
+$ vendor/bin/codecept run unit MyTestCest
+```
